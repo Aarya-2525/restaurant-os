@@ -36,12 +36,15 @@ A full-stack restaurant management system designed to streamline the ordering pr
 - Developed a dynamic bill rendering system that exports to PNG.
 
 ### Integration & Styling
-- Connected the React frontend with the Django backend via Axios.
-- Applied premium design principles with glassmorphism, smooth transitions, and a curated color palette.
+- Connected the React frontend with the Django backend via native fetch API.
+- Applied premium design principles with modern look, smooth transitions, and a curated color palette.
 - Ensured the application is fully responsive for both mobile (customer) and desktop (admin) views.
 - Configured Git version control and established a clean project structure.
 
-## Tech Stack
-- Frontend: React, Vite, Tailwind CSS, Axios, Lucide React.
-- Backend: Django, Django Rest Framework, SQLite (Development).
-- Tools: Git, CSV, QR Code API.
+### Teach Stack
+- Backend: Django, Django REST Framework
+- Authentication: JWT (SimpleJWT)
+- Frontend: React
+- API Communication: Native Fetch API, Postman
+- Styling: Tailwind CSS
+- Database: SQLite (dev) / PostgreSQL (prod-ready)
