@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg-pure: #000000;
+    --bg-surface-1: #0A0A0A;
+    --bg-surface-2: #16181C;
+    --text-primary: #FFFFFF;
+    --text-secondary: #A0A0A0;
+    --accent: #FF5A1F;
+    --border: #2F3336;
+}
+
+@layer base {
+    body {
+        @apply bg-[#000000] text-[#FFFFFF] antialiased;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+    }
+
+    /* Custom Scrollbar for premium feel */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--bg-pure);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--bg-surface-2);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--text-secondary);
+    }
+}
+
+@layer components {
+    .premium-card {
+        @apply bg-[#0A0A0A] border border-[#2F3336] rounded-3xl p-6 transition-all duration-300 hover:border-[#FF5A1F]/30;
+    }
+
+    .premium-button {
+        @apply bg-[#FF5A1F] text-white font-medium py-3 px-8 rounded-full transition-all duration-200 hover:bg-[#E44D15] active:scale-95 disabled:opacity-50 shadow-lg shadow-[#FF5A1F]/20;
+    }
+
+    .premium-input {
+        @apply bg-black border border-[#2F3336] rounded-2xl px-4 py-3.5 text-[#FFFFFF] focus:border-[#FF5A1F] focus:ring-1 focus:ring-[#FF5A1F] outline-none transition-all font-medium;
+    }
+}

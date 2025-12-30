@@ -1,0 +1,53 @@
+category,name,description,price,is_veg,is_jain,is_chefs_special,cooking_time_minutes
+Coffee,Espresso,a balanced double shot brewed hot,200,True,True,False,3
+Coffee,Americano,double espresso with hot water,240,True,True,False,3
+Coffee,Cappuccino,double espresso with steamed milk and foam,250,True,False,False,4
+Coffee,Ferrero Rocker,ferrero rocher cream espresso with textured milk,300,True,False,True,5
+Coffee,Cafe Latte,double espresso with steamed milk,250,True,False,False,4
+Coffee,Spanish Latte,double espresso with condensed milk and cinnamon,275,True,False,True,5
+Coffee,Hazelnut Cookie Latte,hazelnut cookie milk with espresso,300,True,False,True,5
+Coffee,Cortado / Piccolo,double espresso with 60ml milk,240,True,False,False,3
+Coffee,Flat White,double espresso with microfoam milk,250,True,False,False,4
+Coffee,Cafe Mocha,espresso with chocolate sauce and milk,300,True,False,False,5
+
+Cold Coffee,Iced Latte,double espresso milk and jaggery,280,True,False,False,4
+Cold Coffee,Salted Caramel Popcorn Latte,salted caramel espresso milk,330,True,False,True,5
+Cold Coffee,Vietnamese Cold Coffee,double espresso with condensed milk,320,True,False,True,4
+Cold Coffee,Cold Brew,house cold brew blend,300,True,True,False,6
+Cold Coffee,Elvis Parsely Cold Brew,parsely ginger ale cold brew,330,True,True,True,6
+Cold Coffee,Berry Cold Coffee,strawberry sauce espresso milk,350,True,False,True,5
+Cold Coffee,Hawaiian Espresso-oh!,pineapple espresso,250,True,True,True,4
+Cold Coffee,Midnight Brew,blackberry pineapple cold brew,275,True,True,True,6
+
+Breakfast,Carbonara Scramble,bacon parmesan pepper cream cheese,450,False,False,True,10
+Breakfast,Pancake Stack,maple or nutella with cream,450,True,False,False,8
+Breakfast,Loaded Mediterranean Omelette,broccoli tomato olives burrata,395,True,False,True,9
+Breakfast,Brekkie Honey Toast,stracciatella sea salt,425,True,False,False,7
+Breakfast,Mexican Skillet Eggs,beans guacamole hash browns salsa,425,True,False,True,10
+Breakfast,Truffle Mushroom Omelette,parmesan scallion chilli relish,375,True,False,True,9
+Breakfast,Custard French Toast,berry compote maple syrup,395,True,False,False,8
+
+Bakery,Garlic Cheese Roll,cheese filled baked roll,360,True,False,False,6
+Bakery,Truffle Mushroom Quiche,mushroom quiche with truffle,325,True,False,True,7
+Bakery,Kerala Egg Puff,classic kerala style puff,250,False,False,False,6
+Bakery,Char Siu Chicken Bun,chicken bun asian style,350,False,False,True,7
+Bakery,Dark Chocolate Croissant Bun,filled chocolate croissant,395,True,False,False,6
+Bakery,Croissant,buttery french croissant,190,True,True,False,5
+Bakery,Pain Au Chocolat,chocolate filled pastry,285,True,False,False,6
+
+Snacks,Dirty Fries,truffle oil parmesan fries,190,True,False,True,6
+Snacks,Peri Peri Fries,spicy peri peri fries,250,True,False,False,6
+Snacks,Vero's Momos,chicken sausage cheese dumplings,395,False,False,True,8
+Snacks,Shrimp Popcorn,tempura shrimp with gochujang sauce,400,False,False,True,8
+
+Salads,Veronica’s Caesar,house mix avocado tomato cashew cream,325,True,False,False,5
+Salads,Asian Spicy Crunch,crispy wonton broccoli sesame dressing,325,True,False,True,5
+Salads,Burra Burra Bowl,burrata quinoa basil emulsion,325,True,False,True,5
+
+Sandwiches,The Avo Snob,tomatoes basil burrata ciabatta,625,True,False,True,7
+Sandwiches,Mumbai Chilli Cheese Melt,cheddar jalapeno hot honey,375,True,False,False,7
+Sandwiches,Clucking Good Shawarma,smoked chicken hummus pita,650,False,False,True,9
+Sandwiches,The Big Floyd,nashville fried chicken burger,625,False,False,True,10
+
+Drinks,Madam Veronica's Beer,craft beer by great state aleworks,440,True,True,True,2
+Drinks,Milo's Mimosa,sparkling wine cocktail,999,True,True,True,2
