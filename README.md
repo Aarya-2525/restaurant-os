@@ -1,9 +1,12 @@
 # Restaurant OS
-<img width="1278" height="882" alt="admin-panel" src="https://github.com/user-attachments/assets/ab8d79d4-b896-46df-a5f6-5e0cb4c16250" />
-<img width="1918" height="902" alt="menu-preview" src="https://github.com/user-attachments/assets/2bac30f1-2da7-428a-ae5e-d4ba2acdea23" />
-<img width="1918" height="915" alt="qr-tables" src="https://github.com/user-attachments/assets/5a5812a4-0893-483d-802e-030a480f3f85" />
-
 A full-stack restaurant management system designed to streamline the ordering process through QR codes and provide a robust admin panel for restaurant owners.
+<img width="1278" height="882" alt="admin-panel" src="https://github.com/user-attachments/assets/ab8d79d4-b896-46df-a5f6-5e0cb4c16250" />
+- Admin Panel
+<img width="1918" height="902" alt="menu-preview" src="https://github.com/user-attachments/assets/2bac30f1-2da7-428a-ae5e-d4ba2acdea23" />
+- Menu Preview
+<img width="1918" height="915" alt="qr-tables" src="https://github.com/user-attachments/assets/5a5812a4-0893-483d-802e-030a480f3f85" />
+- QR Codes for Tables
+
 
 ## Key Features
 
@@ -44,7 +47,7 @@ A full-stack restaurant management system designed to streamline the ordering pr
 - Ensured the application is fully responsive for both mobile (customer) and desktop (admin) views.
 - Configured Git version control and established a clean project structure.
 
-### Teach Stack
+### Tech Stack
 - Backend: Django, Django REST Framework
 - Authentication: JWT (SimpleJWT)
 - Frontend: React
